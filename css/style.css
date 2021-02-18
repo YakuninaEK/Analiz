@@ -1,0 +1,115 @@
+body {	
+	width: 100%;
+	height: 100%;
+	background: #FFEBCD ;
+	padding: 0;
+	margin: 0;
+	font-family: arial, serif;
+}
+header, footer {
+	background-image: url(img/head.jpg);
+	padding: 50px 0;
+}
+.name {
+	text-align: center;
+	color: #fff;
+	font-size: 70px;
+	text-transform: uppercase;
+}
+h2 {
+	font-family: "Trebuchet MS";
+	font-size: 28px;
+}
+.block {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+aside {
+	min-width: 600px;
+	padding: 10px;
+	margin: 0;
+	background-color: #665050;
+}
+.miniblock {
+	width: 100%;
+	height: 100%;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;	
+	font-family: "Trebuchet MS";
+	text-align: left;
+	padding-left: 10px;
+}
+.one {
+	width: 33%;
+	height: 100%;
+}
+.images {
+	width: 100%;
+	height: 400px;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;	
+}
+.img1 {
+	width: 33%;
+	height: 400px;
+	flex-basis: 100px;
+}
+aside > p {
+	display: inline-block;
+	padding-left: 25px;
+}
+
+main {
+	height: 100%;
+	text-align: center;
+	font-size: 22px;
+	font-family: "Trebuchet MS";
+}
+footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height: 50px;
+	padding: 0;
+}
+.footer_text {
+	width: 100%;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	margin: 15px 0;
+}
+p > a {
+	color: #fff;
+	font-size: 27px;
+	text-decoration: none;
+	transition: color 0.4s linear;
+}
+
+table {
+	border: 1px;
+	margin: auto;
+	border-color: #665050;
+}
+p > a:hover {
+	color: #808080;
+}
+
+input{
+	width: 250px;
+	outline: none;
+}
+
+#woman (
+	font-size: 70px;
+	
+)
+
+select {
+	width: 250px;
+	outline: none;
+}
